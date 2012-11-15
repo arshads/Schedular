@@ -3,6 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Schedule Admin Manager</title>
+<link href="assets/css/scheduleadmin.css" rel="stylesheet" type="text/css" />
+
+
 </head>
 <body>
 <div id="main">
@@ -10,7 +13,7 @@
         <div class="body" style="float:left;">
         	<?php include("header.php"); ?>       
         </div>
-        <div class="textmid" id="textmid" style="text-align:center; float:left; width:900px; min-height:500px; min-height: 450px;"> 
+        <div class="textmid" id="textmid" style="text-align:center; float:left; width:900px; min-height:500px; min-height: 350px;"> 
           <p style="padding-top:150px;">Wellcome to Schedule Manager Admin Panel</p>
           <p>&nbsp;</p>
         </div>

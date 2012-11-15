@@ -618,15 +618,12 @@ color:#5b5b5b;
 	border-radius: 5px;
 	margin-left:30px;
 	margin-top:50px;
-	margin-bottom:20px;
 }
 .list_main{ 
 	width:800px; 
 	float:left; 
 	line-height:20px;
-
 }
-
 .list_no{
 	width:50px; 
 	float:left;
@@ -635,7 +632,7 @@ color:#5b5b5b;
 	line-height:20px;
 }
 .list_name{
-	width:190px; 
+	width:150px; 
 	float:left;
 	border-right:1px solid #E1E1E1;
 	border-bottom:1px solid #E1E1E1;
@@ -649,21 +646,21 @@ color:#5b5b5b;
 	line-height:20px;
 }
 .list_jdate{
-	width:165px; 
+	width:125px; 
 	float:left;
 	border-right:1px solid #E1E1E1;
 	border-bottom:1px solid #E1E1E1;
 	line-height:20px;
 }
 .list_status{
-	width:85px; 
+	width:125px; 
 	float:left;
 	border-right:1px solid #E1E1E1;
 	border-bottom:1px solid #E1E1E1;
 	line-height:20px;
 }
 .list_edit{
-	width:60px; 
+	width:100px; 
 	float:left;
 	border-bottom:1px solid #E1E1E1;
 	line-height:20px;
@@ -763,62 +760,4 @@ border: 1px solid;
 margin: 3px;
 text-decoration: none;
 color: black;
-}
-
-.urlist_id{
-	width:50px; float:left; border-right:1px solid #E1E1E1; line-height:30px;
-}
-.urlist_name{
-	width:185px; float:left; text-align:left; border-right:1px solid #E1E1E1; padding-left:5px; line-height:30px;
-}
-.urlist_mail{
-	width:240px; float:left; text-align:left; border-right:1px solid #E1E1E1; padding-left:5px; line-height:30px;
-}
-.urlist_date{
-	width:160px; float:left; text-align:center;border-right:1px solid #E1E1E1; padding-left:5px; line-height:30px;
-}
-.urlist_stat{
-	width:80px; float:left; text-align:center; border-right:1px solid #E1E1E1; padding-left:5px; padding-top:10px; line-height:30px;
-}
-.urlist_del{
-	width:60px; float:left; line-height:30px;
-}	
-.grp_id{ width:50px; float:left; border-right:1px solid #E1E1E1; 
-}
-.grp_name{width:185px; float:left; text-align:left; border-right:1px solid #E1E1E1; padding-left:5px; 
-}
-.grp_own{width:240px; float:left; text-align:left; border-right:1px solid #E1E1E1; padding-left:5px; 
-}
-.grp_date{width:160px; float:left; text-align:center;border-right:1px solid #E1E1E1; padding-left:5px; 
-}
-.grp_sta{width:80px; float:left; text-align:center; border-right:1px solid #E1E1E1; padding-left:5px;
-}
-.grp_del{width:60px; float:left; 
-}
-.tooltip {
-    
-    cursor: help; 	 float:left;
-}
- 
-.tooltip::after {
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 8px 8px 8px 0px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-    color: #FFF;
-    content: attr(data-tooltip); /* The main part of the code, determining the content of the pop-up prompt */
-    margin-top: 24px;
-    opacity: 0; /* Our element is transparent... */
-    padding: 3px 7px;
-    position: absolute;
-    visibility: hidden; /* ...and hidden. */ 
-	/*min-height:100px;
-	width:100px;*/
-	word-wrap: break-word;
-             
-    transition: all 0.4s ease-in-out; /* To add some smoothness */
-}
-         
-.tooltip:hover::after {
-    opacity: 1; /* Make it visible */
-    visibility: visible;
 }

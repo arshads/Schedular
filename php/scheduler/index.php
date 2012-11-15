@@ -1,6 +1,5 @@
 <?php session_start();
 include( "config.php");
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -109,32 +108,6 @@ include( "config.php");
 			document.getElementById("middel_part").innerHTML =msg;
 			});
 		
-		}
-		
-		// Display Meeting Request
-		
-		function mom_list()
-		{   
-		    j.ajax({
-			type: "POST",
-			url:"minutesofmeeting.php",
-			dataType: "html"
-			}).done(function( msg ) {
-			document.getElementById("middel_part").innerHTML =msg;
-			});
-		}
-		// Mom upload
-		
-		function mom_uplod(moid)
-		{   
-		    j.ajax({
-			type: "POST",
-			url:"uploadmom.php",
-			dataType: "html",
-			data:{ momid:moid }
-			}).done(function( msg ) {
-			document.getElementById("mom_upd").innerHTML =msg;
-			});
 		}
 </script>
 </head>
@@ -272,7 +245,6 @@ include( "config.php");
 						<li><a href="#" onClick="friends_list();">Friends List</a></li>
 						<li><a href="#" onClick="list_group();">List Groups</a></li>
 						<li><a href="#" onClick="schedule_manager();">Meeting Scheduler</a></li>
-						<li><a href="#" onClick="mom_list();">Minutes of Meeting</a></li>
 						<li><a class='ajax' href="logout.php"> Logout </a></li>
 					</ul>
 					<?php } else { ?>
