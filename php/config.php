@@ -2,7 +2,7 @@
 
      /**  MySql Database Connection **/
 	 
-      $host="https://myappschedular-elxsicloud.rhcloud.com/phpmyadmin/";
+      $host="127.11.30.1:3306";
 	  $user="admin";
 	  $password="XctxxRN33L3R";
 	  $database="myappsschedular";
