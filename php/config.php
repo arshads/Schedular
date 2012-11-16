@@ -10,7 +10,7 @@
 	  
 	  if(!$con){
 	     
-	    die("Mysql Not Connect");
+	    die("Mysql Not Connected");
 	  } 
 	  
 	  $sel=mysql_select_db("$database",$con);
