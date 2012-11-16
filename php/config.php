@@ -2,11 +2,11 @@
 
      /**  MySql Database Connection **/
 	 
-      $host="localhost";
-	  $root="root";
-	  $password="";
-	  $database="scheduler";
-	  $con=mysql_connect($host,$root,$password);
+      $host="https://myappschedular-elxsicloud.rhcloud.com/phpmyadmin/";
+	  $user="admin";
+	  $password="XctxxRN33L3R";
+	  $database="myappsschedular";
+	  $con=mysql_connect($host,$user,$password);
 	  
 	  if(!$con){
 	     
